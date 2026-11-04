@@ -42,7 +42,9 @@ export default async function Home() {
           </>
         ) : (
           <>
-            <h1 className="text-5xl font-bold [text-shadow:0_0_12px_#00ff41]">The Red Pill</h1>
+            <h1 className="text-5xl font-bold [text-shadow:0_0_12px_#00ff41]">
+              The <span className="text-red-500 [text-shadow:0_0_12px_#ff0000]">Red</span> Pill
+            </h1>
             <p className="text-lg">Get unplugged from the simulation.</p>
             <LoginButton />
           </>
