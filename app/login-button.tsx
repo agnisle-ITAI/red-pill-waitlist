@@ -14,8 +14,8 @@ export default function LoginButton() {
   }
 
   return (
-    <button onClick={handleLogin} className="rounded-lg bg-red-600 text-white px-6 py-3">
-      Join with Google
+    <button onClick={handleLogin} className="rounded-full bg-red-600 px-8 py-3 font-bold text-white shadow-[0_0_20px_rgba(220,38,38,0.8)] transition hover:scale-105 hover:bg-red-500">
+      Join the Wait with Google
     </button>
   );
 }
